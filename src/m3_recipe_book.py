@@ -35,6 +35,18 @@
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
+print("Welcome to Recipe Book!")
+name = input("Please enter a recipe name: ")
+def ingredients_list():
+    total = 0
+    while True:
+        user_input = str(input("Please enter an ingredient (When you are finished adding ingredients type end): "))
+        if user_input == "end":
+                break
+        total += user_input
+        print(f"The ingredients are {total}.")
+ingredients = ingredients_list()
+
 
 ###############################################################################
 # TODO: 2. EXTRA CREDIT (2 pts)
