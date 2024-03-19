@@ -49,7 +49,7 @@ print(fav_colors)
 fav_colors.remove("neon pink")
 print(fav_colors)
 ###############################################################################
-# TODO: 5. (2 pts)
+# DONE: 5. (2 pts)
 #
 #   For this _TODO_, write a line of code that adds a duplicate item to your
 #   set (you choose which item). Once you have done this, print the set. Make
